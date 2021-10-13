@@ -1,1 +1,41 @@
 /* This is a comment in CSS! */
+
+
+
+body{
+  color: black;
+}
+
+/* figcaption{
+  color: red;
+} */
+
+a:hover{
+  color: red;
+}
+
+p,
+li{
+  line-height: 1.5;
+}
+
+abbr::before{
+  content: "⭕️";
+}
+
+nav li {
+  list-style-type: square;
+}
+
+
+/* section{
+color: red;
+} */
+
+/* #introduction{
+  color: blue;
+} */
+
+/* .alt-row{
+  background-color: #ddd;
+} */
