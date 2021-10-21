@@ -1,7 +1,14 @@
 body {
   font-family: "Helvetica", "Arial", sans-serif;
+  margin-top: 0;
+  margin-left: 0;
 }
 
+p{
+  margin: 0;
+}
 #box {
-  
+  /* background-color: #ddd; */
+  width: 1000px;
+  /* To center, provide width and then type margin: 0 auto */
 }
