@@ -1,3 +1,29 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 100px 300px;
+  grid-gap: 20px;
+  grid-template-areas:
+    "masthead masthead"
+    "sidebar article"
+    "footer footer";
+}
+
+#masthead{
+  grid-area: masthead;
+}
+
+#sidebar{
+  grid-area: sidebar;
+}
+
+#article{
+  gird-area: article;
+}
+
+#footer{
+  grid-area:footer;
+}
 
 
 
